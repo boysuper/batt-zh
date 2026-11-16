@@ -1,9 +1,11 @@
 # batt-zh · batt 社区汉化版
 
 [batt](https://github.com/charlie0129/batt) 是一个 macOS 菜单栏电池充电管理工具（限制充电上限、一次性充满、强制放电、自动校准）。
-本项目在 **batt v0.10.0 源码**基础上新增了 **中/英双语界面**，并为图标加上红色「中文版」横幅。
+本项目在 **batt v0.10.0 源码**基础上新增了 **中/英双语界面**，并为图标加上红色「双语版」横幅。
 
 > 非官方汉化，与原作者无隶属关系。上游代码与项目版权归 [@charlie0129](https://github.com/charlie0129) 所有，遵循 **GPL-2.0**。
+
+**下载**：[Release v0.10.0-zh.1](https://github.com/boysuper/batt-zh/releases/tag/v0.10.0-zh.1) · **上游告知 Issue**：[charlie0129/batt#179](https://github.com/charlie0129/batt/issues/179)
 
 ---
 
@@ -12,12 +14,12 @@
 - **运行时中英切换**：高级设置 → 语言 → 自动（跟随系统）/ 中文 / English
 - **切换不重启**：就地重建菜单（`batt_menu_rebuild`），进程不退出，不会出现「闪退重启」的观感
 - **全量汉化**：菜单项、状态行、确认弹窗、18 条悬停长提示、电源三行标签（系统 / 适配器 / 电池）
-- **图标**：原图标右上角叠加红色「中文版」横幅（10 个尺寸全覆盖）
+- **图标**：黑色底 + 底部红色「双语版」横幅（10 个尺寸全覆盖）
 - **不改底层**：充电控制、SMC 逻辑、daemon 行为、版本号（0.10.0）、bundle id（`cc.chlc.batt`）均保持不变
 
 ## 安装
 
-从 [Releases](https://github.com/boysuper/batt-zh/releases) 下载 `batt-0.10.0-双语版.dmg`，卷内有两个文件夹：
+从 [Releases](https://github.com/boysuper/batt-zh/releases) 下载 `batt-0.10.0-bilingual.dmg`（GitHub 会去掉附件名里的中文，因此使用英文名），卷内有两个文件夹：
 
 | 文件夹 | 内容 |
 | --- | --- |
@@ -49,6 +51,8 @@ make app VERSION=v0.10.0
 # 产物：bin/batt.app
 ```
 
+源码包：`batt-0.10.0-zh-source.zip`（Release 附件）。
+
 ## 语言实现
 
 - 词典：`pkg/gui/i18n.go`（英文原文为 key、中文为 value，150+ 条）
@@ -75,11 +79,15 @@ make app VERSION=v0.10.0
 
 An unofficial Chinese localization of [batt](https://github.com/charlie0129/batt) v0.10.0 (macOS menubar charge limiter).
 
+**Download**: [Release v0.10.0-zh.1](https://github.com/boysuper/batt-zh/releases/tag/v0.10.0-zh.1) · **Notice to upstream**: [charlie0129/batt#179](https://github.com/charlie0129/batt/issues/179)
+
 - Runtime language switch: **Advanced → Language → Auto (System) / Chinese / English**
 - Switching rebuilds the menu **in place** — the process never quits, so there is no "crash & relaunch" feeling
 - Full localization: menu items, status lines, alert dialogs, all 18 tooltips, power rows (System / Adapter / Battery)
-- App icon gets a red "中文版" badge at the top-right
+- App icon: black tile with a red "双语版" banner along the bottom
 - Charging control, SMC logic, daemon behavior, version (0.10.0) and bundle id are untouched
+
+Assets: `batt-0.10.0-bilingual.dmg` (two folders: localized / official) and `batt-0.10.0-zh-source.zip` (full modified source).
 
 Build: `make app VERSION=v0.10.0` → `bin/batt.app`
 
