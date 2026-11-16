@@ -1,0 +1,19 @@
+GNU GENERAL PUBLIC LICENSE
+Version 2, June 1991
+
+batt-zh（batt 社区汉化版）以 GPL-2.0 发布。
+upstream: https://github.com/charlie0129/batt （作者 charlie0129，同样为 GPL-2.0）
+
+本仓库是上游代码的衍生作品，完整许可证文本随上游源码一同分发，也可从以下地址获取：
+  https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+  https://github.com/charlie0129/batt/blob/main/LICENSE
+
+SPDX-License-Identifier: GPL-2.0-only
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; version 2 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
