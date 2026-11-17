@@ -7,6 +7,8 @@
 
 **下载**：[Release v0.10.0-zh.1](https://github.com/boysuper/batt-zh/releases/tag/v0.10.0-zh.1) · **上游告知 Issue**：[charlie0129/batt#179](https://github.com/charlie0129/batt/issues/179)
 
+**源码**：仓库 `main` 分支即完整源码（提交 `4284800`，含 `pkg/gui/i18n.go`）；Release 页的 `Source code` 包与 `batt-0.10.0-zh-source.zip` 都是这份代码。
+
 ---
 
 ## 功能
